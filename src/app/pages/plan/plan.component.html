@@ -1,0 +1,34 @@
+<div class="slide">
+    <p style="font-weight: bolder;">Select Calarioes:</p>
+    <mat-slider min="10" max="500">
+        <input [(value)] = "min_v" [(ngModel)]="min_v" matSliderStartThumb>
+        <input [(value)] = "max_v" [(ngModel)]="max_v" matSliderEndThumb>
+    </mat-slider>
+    <!-- <div class="container">
+        <app-plan-box *ngFor="let x of names | filtertype:selected |" [Products]="x"></app-plan-box>
+    </div>
+    </div> -->
+<!-- <div class="hd">
+    <div class="tp">
+    <div class="slt">
+    <p style="font-weight: bolder;">Select Catogory:</p>
+    <select [(ngModel)]="selected" class="bx">
+    <option *ngFor="let x of types">{{x}}</option>
+    </select>
+    </div>
+    <div class="slide">
+    <p style="font-weight: bolder;">Select Price Range:</p>
+    <mat-slider min="0" max="500">
+        <input [(value)] = "min_v" [(ngModel)]="min_v" matSliderStartThumb>
+        <input [(value)] = "max_v" [(ngModel)]="max_v" matSliderEndThumb>
+    </mat-slider>
+    </div>
+    < <p style="font-weight: bolder;">{{min_v | currency:'INR'}} to {{max_v | currency:'INR'}}</p> -->
+    
+<!-- </div>
+<div class="container">
+    <app-plan-box *ngFor="let x of names | filtertype:selected " [products]="x"></app-plan-box>
+</div>
+</div>
+
+ | filterprice:min_v:max_v   -->
